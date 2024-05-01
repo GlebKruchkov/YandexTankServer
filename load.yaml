@@ -1,15 +1,15 @@
 phantom:
-  address: 127.0.0.1:8888 # [Target's address]:[target's port]
+  address: 127.0.0.1:1234
   ammofile: ammo.txt
   load_profile:
-    load_type: rps # schedule load by defining requests per second
-    schedule: line(1, 1000, 180s) # starting from 1rps growing linearly to 10rps during 10 minutes
+    load_type: rps
+    schedule: line(1, 1000, 180s)
   instances: 16
 console:
-  enabled: true # enable console output
+  enabled: true
 overload:
   token_file: token.txt
   job_name: 1000rps_2min
   enabled: true
 telegraf:
-  enabled: false # let's disable telegraf monitoring for the first time
+  enabled: false
