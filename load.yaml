@@ -3,7 +3,7 @@ phantom:
   ammofile: ammo.txt
   load_profile:
     load_type: rps # schedule load by defining requests per second
-    schedule: line(1, 10000, 30s) # starting from 1rps growing linearly to 10rps during 10 minutes
+    schedule: line(1, 1000, 180s) # starting from 1rps growing linearly to 10rps during 10 minutes
   instances: 16
 console:
   enabled: true # enable console output
