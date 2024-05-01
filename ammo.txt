@@ -1,0 +1,15 @@
+89 k
+GET / HTTP/1.1
+Host: hostname.com
+User-Agent: tank
+Accept: */*
+key: k
+Connection: Close
+
+120
+PUT / HTTP/1.1
+Host: 127.0.0.1
+Content-Length: 21
+Content-Type: application/x-www-form-urlencoded
+
+key=k&value=valueForK
