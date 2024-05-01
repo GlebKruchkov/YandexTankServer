@@ -9,8 +9,7 @@ console:
   enabled: true # enable console output
 overload:
   token_file: token.txt
-  job_name: osi
-  job_dsc: delay osi
+  job_name: 1000rps_2min
   enabled: true
 telegraf:
   enabled: false # let's disable telegraf monitoring for the first time
