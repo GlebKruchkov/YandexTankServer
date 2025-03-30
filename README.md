@@ -1,5 +1,3 @@
 # Yandex Tank
 
-Written and tested my service using the Yandex Tank framework (server load testing tool
-_
-16:35 update
+Written and tested my service using the Yandex Tank framework (server load testing tool)
